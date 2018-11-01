@@ -1,0 +1,35 @@
+CREATE TABLE personTable (
+	PersonID TEXT,
+	User TEXT,
+	FirstName TEXT,
+	LastName TEXT,
+	Gender TEXT,
+	Father TEXT,
+	Mother TEXT,
+	Spouse TEXT
+);
+CREATE TABLE userTable (
+	UserName TEXT,
+	Password TEXT,
+	Email TEXT,
+	FirstName TEXT,
+	LastName TEXT,
+	Gender TEXT
+);
+CREATE TABLE eventTable (
+	EventID TEXT,
+	Descendant TEXT,
+	Person TEXT,
+	Latitude INTEGER,
+	Longitude INTEGER,
+	Country TEXT,
+	CITY TEXT,
+	EventType TEXT,
+	Year INTEGER
+);
+CREATE TABLE AuthTable (
+	AuthToken TEXT,
+	UserName TEXT
+);
+	
+	
